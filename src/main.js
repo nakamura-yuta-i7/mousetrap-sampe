@@ -1,5 +1,4 @@
 require("./main.scss");
-new Main();
 
 class Main {
 	constructor() {
@@ -10,3 +9,4 @@ class Main {
 		
 	}
 }
+new Main();
