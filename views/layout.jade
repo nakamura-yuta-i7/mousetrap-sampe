@@ -3,10 +3,14 @@ html
 	head
 		title= title
 		link(rel='stylesheet', href='/stylesheets/main.css')
-		link(rel='stylesheet', href='/jquery-ui/themes/base/jquery-ui.min.css')
 		script(src='/jquery/dist/jquery.min.js')
+		link(rel='stylesheet', href='/jquery-ui/themes/base/jquery-ui.min.css')
 		script(src='/jquery-ui/jquery-ui.min.js')
+		script(src='/mousetrap/mousetrap.min.js')
+		link(rel='stylesheet', href='/bootstrap/dist/css/bootstrap.min.css')
+		script(src='/bootstrap/dist/js/bootstrap.min.js')
 		script(src='/javascripts/init.js')
 		script(src='/javascripts/main.js')
 	body
-		block content
+		.container
+			block content
